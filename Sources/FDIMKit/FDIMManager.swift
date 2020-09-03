@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import ImSDK
 
 public typealias FDIMSucc = () -> ()
 public typealias FDIMFailure = (Int32,String) -> ()
