@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D9716942500CD56006B5088 /* FDIMKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6D9716932500CD56006B5088 /* FDIMKit */; };
 		6DDD1E1A2500959500527986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD1E192500959500527986 /* AppDelegate.swift */; };
 		6DDD1E1C2500959500527986 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD1E1B2500959500527986 /* SceneDelegate.swift */; };
 		6DDD1E1E2500959500527986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD1E1D2500959500527986 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D9716942500CD56006B5088 /* FDIMKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = FDIMKitDemo;
+			packageProductDependencies = (
+				6D9716932500CD56006B5088 /* FDIMKit */,
+			);
 			productName = FDIMKitDemo;
 			productReference = 6DDD1E162500959500527986 /* FDIMKitDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 6DDD1E0D2500959500527986;
+			packageReferences = (
+				6D9716922500CD56006B5088 /* XCRemoteSwiftPackageReference "FDIMKit" */,
+			);
 			productRefGroup = 6DDD1E172500959500527986 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -338,6 +346,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D9716922500CD56006B5088 /* XCRemoteSwiftPackageReference "FDIMKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fandongtongxue/FDIMKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D9716932500CD56006B5088 /* FDIMKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D9716922500CD56006B5088 /* XCRemoteSwiftPackageReference "FDIMKit" */;
+			productName = FDIMKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6DDD1E0E2500959500527986 /* Project object */;
 }
