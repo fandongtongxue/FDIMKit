@@ -7,7 +7,7 @@
 
 import HandyJSON
 
-public enum FDIMMessageType : Int {
+public enum FDIMMessageType {
     case none = -1
     case text //文字消息
     case send_gift_success //收到礼物消息
@@ -120,7 +120,7 @@ public class FDIMMessageModel : HandyJSON {
     public var score: String?
     public var imageName: String?
     public var prop_id: String?
-    public var type: Int = -1
+    public var type: FDIMMessageType
     public var is_plus: String?
     public var icon: String?
     public var isRedPackageTaked: String?

@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FDIMKit.xcodeproj">
+      location = "group:FDIMKitDemo.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:FDIMKitDemo/FDIMKitDemo.xcodeproj">
+      location = "group:FDIMKit.xcodeproj">
    </FileRef>
 </Workspace>

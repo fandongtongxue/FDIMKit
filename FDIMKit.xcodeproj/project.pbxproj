@@ -21,10 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		6DDD1E3D25009C3D00527986 /* FDIMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD1E3925009C3D00527986 /* FDIMManager.swift */; };
-		6DDD1E3E25009C3D00527986 /* ImSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DDD1E3A25009C3D00527986 /* ImSDK.framework */; };
-		6DDD1E3F25009C3D00527986 /* FDIMMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD1E3B25009C3D00527986 /* FDIMMessageModel.swift */; };
-		6DDD1E4025009C3D00527986 /* FDIMKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD1E3C25009C3D00527986 /* FDIMKit.swift */; };
+		26A4A6A22504FAD0008EB3BA /* FDIMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4A69E2504FAD0008EB3BA /* FDIMManager.swift */; };
+		26A4A6A32504FAD0008EB3BA /* FDIMMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4A69F2504FAD0008EB3BA /* FDIMMessageModel.swift */; };
+		26A4A6A42504FAD0008EB3BA /* FDIMKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A4A6A02504FAD0008EB3BA /* FDIMKit.swift */; };
+		26A4A6A52504FAD0008EB3BA /* ImSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A4A6A12504FAD0008EB3BA /* ImSDK.framework */; };
 		OBJ_29 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_40 /* FDIMKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* FDIMKitTests.swift */; };
 		OBJ_41 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
@@ -49,11 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6DDD1E3925009C3D00527986 /* FDIMManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDIMManager.swift; sourceTree = "<group>"; };
-		6DDD1E3A25009C3D00527986 /* ImSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImSDK.framework; sourceTree = "<group>"; };
-		6DDD1E3B25009C3D00527986 /* FDIMMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDIMMessageModel.swift; sourceTree = "<group>"; };
-		6DDD1E3C25009C3D00527986 /* FDIMKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDIMKit.swift; sourceTree = "<group>"; };
-		6DDD1E4125009C6600527986 /* FDIMKit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDIMKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		26A4A69E2504FAD0008EB3BA /* FDIMManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDIMManager.swift; sourceTree = "<group>"; };
+		26A4A69F2504FAD0008EB3BA /* FDIMMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDIMMessageModel.swift; sourceTree = "<group>"; };
+		26A4A6A02504FAD0008EB3BA /* FDIMKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDIMKit.swift; sourceTree = "<group>"; };
+		26A4A6A12504FAD0008EB3BA /* ImSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImSDK.framework; sourceTree = "<group>"; };
 		"FDIMKit::FDIMKit::Product" /* FDIMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FDIMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"FDIMKit::FDIMKitTests::Product" /* FDIMKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = FDIMKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_12 /* FDIMKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDIMKitTests.swift; sourceTree = "<group>"; };
@@ -66,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				6DDD1E3E25009C3D00527986 /* ImSDK.framework in Frameworks */,
+				26A4A6A52504FAD0008EB3BA /* ImSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,11 +128,10 @@
 		OBJ_8 /* FDIMKit */ = {
 			isa = PBXGroup;
 			children = (
-				6DDD1E4125009C6600527986 /* FDIMKit-Bridging-Header.h */,
-				6DDD1E3C25009C3D00527986 /* FDIMKit.swift */,
-				6DDD1E3925009C3D00527986 /* FDIMManager.swift */,
-				6DDD1E3B25009C3D00527986 /* FDIMMessageModel.swift */,
-				6DDD1E3A25009C3D00527986 /* ImSDK.framework */,
+				26A4A6A02504FAD0008EB3BA /* FDIMKit.swift */,
+				26A4A69E2504FAD0008EB3BA /* FDIMManager.swift */,
+				26A4A69F2504FAD0008EB3BA /* FDIMMessageModel.swift */,
+				26A4A6A12504FAD0008EB3BA /* ImSDK.framework */,
 			);
 			name = FDIMKit;
 			path = Sources/FDIMKit;
@@ -223,9 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				6DDD1E4025009C3D00527986 /* FDIMKit.swift in Sources */,
-				6DDD1E3D25009C3D00527986 /* FDIMManager.swift in Sources */,
-				6DDD1E3F25009C3D00527986 /* FDIMMessageModel.swift in Sources */,
+				26A4A6A42504FAD0008EB3BA /* FDIMKit.swift in Sources */,
+				26A4A6A22504FAD0008EB3BA /* FDIMManager.swift in Sources */,
+				26A4A6A32504FAD0008EB3BA /* FDIMMessageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FDIMKit",
+        "repositoryURL": "https://github.com/fandongtongxue/FDIMKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "cb569afe7455bca62f3beeaaf765995b614f8631",
+          "version": null
+        }
+      },
+      {
+        "package": "HandyJSON",
+        "repositoryURL": "https://github.com/alibaba/HandyJSON.git",
+        "state": {
+          "branch": null,
+          "revision": "dcf39cf062680ffa4fd0acb7f9117a97755c113f",
+          "version": "5.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
