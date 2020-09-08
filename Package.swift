@@ -13,8 +13,6 @@ let package = Package(
         .library(
             name: "FDIMKit",
             targets: ["FDIMKit"],
-            .binaryTarget(name: "ImSDK", path: "Sources/FDIMKit/ImSDK.framework"
-            ),
         ),
     ],
     dependencies: [
